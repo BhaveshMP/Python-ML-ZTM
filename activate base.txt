@@ -1,0 +1,1 @@
+& "I:\Anaconda\shell\condabin\conda-hook.ps1" ; conda activate base

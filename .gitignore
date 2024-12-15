@@ -1,0 +1,50 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore data files (if not needed in the repo)
+data/
+*.csv
+*.tsv
+*.h5
+*.sqlite
+*.pickle
+*.json
+
+# Ignore model files (if not needed in the repo)
+*.pkl
+*.h5
+*.hdf5
+*.joblib
+
+# Ignore logs and temporary files
+*.log
+*.bak
+*.swp
+
+# Ignore IDE specific files (if using VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Ignore other OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore other ML-specific files
+*.csv.gz
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
